@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-size = wight, heigh = 120, 240
+size = wight, height = 120, 240
 black = 0, 0, 0
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
@@ -114,6 +114,7 @@ def main():
         pygame.display.flip()
         pygame.time.wait(2000)
         TL.working()
+   sys.exit()
 
 
 if __name__ == "__main__":
